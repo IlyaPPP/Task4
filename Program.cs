@@ -12,7 +12,7 @@ Console.Write($"{array[0]}, {array[1]}, {array[2]}, {array[3]} -> {pol}");
 int[] Array()
 {
     for (int i = 0; i < 4; i++)
-        array[i] = new Random().Next(100, 999);
+        array[i] = new Random().Next(100, 1000);
     return array;
 }
 
